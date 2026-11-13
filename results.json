@@ -1,0 +1,91 @@
+{
+  "veri": {
+    "oyuncu": 90188,
+    "cikarilan_aykiri": 1,
+    "sifir_tur_%": 4.4
+  },
+  "srm": {
+    "gate_30": 44699,
+    "gate_40": 45489,
+    "gate_30_payi_%": 49.56,
+    "p": 0.0085,
+    "otuzdan_az_tur_p": 0.022
+  },
+  "mde": {
+    "retention_1": {
+      "kontrol_orani_%": 44.82,
+      "mde_puan": 0.93
+    },
+    "retention_7": {
+      "kontrol_orani_%": 19.02,
+      "mde_puan": 0.73
+    }
+  },
+  "retention_1": {
+    "gate_30_%": 44.82,
+    "gate_40_%": 44.23,
+    "fark_puan": -0.59,
+    "goreli_fark_%": -1.32,
+    "ga95": [
+      -1.24,
+      0.06
+    ],
+    "z": -1.79,
+    "p": 0.0739,
+    "anlamli_bonferroni": false
+  },
+  "retention_7": {
+    "gate_30_%": 19.02,
+    "gate_40_%": 18.2,
+    "fark_puan": -0.82,
+    "goreli_fark_%": -4.3,
+    "ga95": [
+      -1.33,
+      -0.31
+    ],
+    "z": -3.16,
+    "p": 0.0016,
+    "anlamli_bonferroni": true
+  },
+  "bootstrap": {
+    "retention_1": {
+      "gate_30_daha_iyi_olasilik_%": 96.2,
+      "ga95": [
+        -1.25,
+        0.06
+      ]
+    },
+    "retention_7": {
+      "gate_30_daha_iyi_olasilik_%": 99.9,
+      "ga95": [
+        -1.33,
+        -0.3
+      ]
+    }
+  },
+  "engagement": {
+    "medyan_30": 17.0,
+    "medyan_40": 16.0,
+    "ortalama_30": 51.3,
+    "ortalama_40": 51.3,
+    "mann_whitney_p": 0.051
+  },
+  "kesifsel": {
+    "30'dan az tur": {
+      "gate_30_%": 4.26,
+      "gate_40_%": 3.93,
+      "fark_puan": -0.33
+    },
+    "30+ tur": {
+      "gate_30_%": 43.87,
+      "gate_40_%": 43.0,
+      "fark_puan": -0.87
+    }
+  },
+  "is_etkisi": {
+    "aylik_kurulum_varsayimi": 1000000,
+    "tahmin": 8200,
+    "en_az": 3100,
+    "en_fazla": 13300
+  }
+}
